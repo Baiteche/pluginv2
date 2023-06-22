@@ -1,0 +1,201 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.original{
+    background-image: linear-gradient(90deg, #202020 0%, #5760B1 52.08%, #202020 100%, #202020 100%) !important;
+   
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+p{
+    width: 190px;
+height: 37px;
+left: 93px;
+top: 248px;
+color: black;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30.422px;
+line-height: 37px;
+
+
+color: #171821;
+}
+
+.centrer{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./../../assets/left-logo.png);
+    
+
+}
+
+.nav-link{
+    width: 100%;
+    height: 100%;
+   text-shadow: -2px 6px 4px rgba(0,0,0,0.53);;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+   
+    
+    
+    text-transform: lowercase;
+    
+    color: #FFFFFF;
+}
+.nav-link:hover{
+    zoom: 108%;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.273);
+}
+
+
+#button1,#button2{
+  box-shadow: 5px 5px 15px 1px #000;
+    background: linear-gradient(156.58deg, rgba(250, 250, 250, 0.5) 17.17%, rgba(194, 196, 205, 0.5) 84.45%);
+    border-radius: 15.4804px;
+    
+width: 360.05px;
+height: 495px;
+
+   
+}
+
+#button1:hover,#button2:hover{
+    zoom: 102%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.273);
+
+    
+}
+
+
+
+.background-pics{
+    border-radius: 50%;
+    background-image: url(./../../assets/logo-cf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 7rem;
+    width: 7rem;
+    background-size: contain;
+    box-shadow: 0px 0px 12px 2px #000;
+    background-color: rgba(146, 146, 146, 0.664);
+    
+    margin-top: 5%;
+    
+
+}
+
+input{
+    color: white;
+    background: linear-gradient(156.58deg, rgba(250, 250, 250, 0.5) 17.17%, rgba(194, 196, 205, 0.5) 84.45%);
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-top: none;
+    
+    
+}
+label{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+form{
+    background:transparent;
+
+}
+
+
+  
+  
+  .bi {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .bi:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .bi-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .bi-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+
+   
+  .fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+   background-color:  rgb( 0, 119, 181);
+    color: white;
+  }
+
+  .fa-instagram{
+    text-align: center;
+   
+    color: #fff;
+    font-size: 24px;
+    line-height: 25px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  
+  }

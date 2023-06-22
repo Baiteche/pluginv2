@@ -1,0 +1,140 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+--primary :#3A435E;
+--text:#33272a;
+--secondary:#2b3136;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--primary);
+
+}
+#nav-droite{
+    height: 100vh;
+    min-height: 100vh;
+    background-color: var(--primary);
+    width: 100%;
+}
+
+
+li.right-li:hover{
+   background-color:  rgba(255, 255, 255, 0.1);
+    
+    cursor: pointer;
+}
+
+form{
+    padding: auto;
+    margin: auto;
+}
+
+.fc-event-title ,.fc-event-time{
+    color: rgb(255, 255, 255)!important;
+}
+
+.fc-daygrid-event-harness{
+    background: var(--primary);
+    height: 2rem;
+
+}
+
+
+
+
+#parametres::before{
+    content: " \F1C2";
+}
+
+
+
+#calendar{
+    background-color: rgba(254, 254, 254, 0.826);
+    padding-top: 5vh;
+    padding: 20px;
+    height: 100vh;
+}
+table{
+    border: 2px solid var(--primary);
+  
+}
+.fc-col-header-cell-cushion {
+    color: black;
+    text-decoration: none;
+}
+
+.fc-day{
+    border: 2px solid var(--primary);
+} 
+
+.fc-daygrid-day-number{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+li.right-li:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.fa-home:focus{
+    animation: wobble 2s ease 0s 1 normal forwards;
+    animation-delay: 200ms;
+}
+
+.description{
+    background-color: var(--primary);
+    color: white;
+    height: 100vh!important;
+}
+.fc-daygrid-day-top{
+    background-color: #1e90ff;
+    color: white;
+}
+
+
+
+@keyframes myAnim {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-5px);
+	}
+}
+
+@keyframes wobble {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}

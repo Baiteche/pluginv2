@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(90deg, #202020 0%, #5760B1 52.08%, #202020 100%, #202020 100%);
+}
+
+
+main{
+    min-height: 100vh;
+}
+form{
+    color: white;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+
+h1{
+    color: #FFF;
+font-size: 40px;
+font-family: Inter;
+}
+#submit-button{
+border-radius: 10px;
+background-color: #FB646B;
+color: white;
+}
+
+/*input{
+/*    background-color:  rgba(255, 255, 255, 0.10);
+/*    height: 40px;
+/*    line-height: 40px;
+/*    border-left: none;
+/*    border-top: none;
+/*    border-right: none;
+/*    border-bottom: 2px solid gray;
+/*}
+/*input:focus{
+/*    background-color:  rgba(255, 255, 255, 0.618);
+/*    border: none;
+/*    border-bottom: 2px solid gray;
+/*    outline: none
+/*}
+/*input::placeholder{
+/*    color: white;
+/*}
